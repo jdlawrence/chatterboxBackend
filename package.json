@@ -1,0 +1,11 @@
+{
+  "name": "chatterbox",
+  "version": "1.0.0",
+  "description": "chatterbox backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Hack Reactor",
+  "license": "ISC"
+}
