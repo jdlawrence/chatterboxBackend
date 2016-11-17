@@ -7,5 +7,12 @@
     "test": "test"
   },
   "author": "Hack Reactor",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongodb-runner": "^3.4.0",
+    "parse": "^1.9.2",
+    "parse-server": "^2.2.25-beta.1",
+    "path": "^0.12.7"
+  }
 }
