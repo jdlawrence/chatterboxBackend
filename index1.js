@@ -11,7 +11,7 @@ var api = new ParseServer({
   masterKey: '', // Keep this key secret!
   restAPIKey: 'hackreactor',
   // fileKey: 'optionalFileKey',
-  serverURL: 'http://localhost:1338/parse' // Don't forget to change to https if needed
+  serverURL: 'http://localhost:1339/parse' // Don't forget to change to https if needed
 });
 
 // Serve the Parse API on the /parse URL prefix
@@ -21,6 +21,6 @@ app.get('/', function(req, res) {
   res.end('common');
 });
 
-app.listen(1338, function() {
-  console.log('parse-server-example running on port 1338.');
+app.listen(1339, function() {
+  console.log('parse-server-example running on port 1339.');
 });
